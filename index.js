@@ -10,7 +10,7 @@ const readFile = promisify(fs.readFile)
 
 const {
   ALGOLIA_APPLICATION_ID: algoliaAppId,
-  AlGOLIA_ADMIN_KEY: algoliaAdminKey,
+  ALGOLIA_ADMIN_KEY: algoliaAdminKey,
   ALGOLIA_INDEX: algoliaIndex
 } = process.env
 
@@ -36,7 +36,7 @@ module.exports = {
       algoliaAdminKey === null ||
       algoliaIndex === null) {
       build.failPlugin(
-        'Please set your ALGOLIA_APPLICATION_ID, AlGOLIA_ADMIN_KEY, and ALGOLIA_INDEX using environment variables: https://docs.netlify.com/configure-builds/environment-variables'
+        'Please set your ALGOLIA_APPLICATION_ID, ALGOLIA_ADMIN_KEY, and ALGOLIA_INDEX using environment variables: https://docs.netlify.com/configure-builds/environment-variables'
       )
     }
 

@@ -25,7 +25,7 @@ To install, add the plugin in your `netlify.toml` or use the Netlify plugin dire
 
 ![Add algolia config to your deploy environment variables](https://user-images.githubusercontent.com/956290/85300382-63c66400-b49e-11ea-82a9-045ac58f26e5.png)
 
-Set `ALGOLIA_APPLICATION_ID`, `AlGOLIA_ADMIN_KEY`, and `ALGOLIA_INDEX` using environment variables: https://docs.netlify.com/configure-builds/environment-variables
+Set `ALGOLIA_APPLICATION_ID`, `ALGOLIA_ADMIN_KEY`, and `ALGOLIA_INDEX` using environment variables: https://docs.netlify.com/configure-builds/environment-variables
 
 These values can be found on the Your API Keys page on your Algolia Dashboard.
 
