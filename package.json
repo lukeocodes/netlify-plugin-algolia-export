@@ -1,7 +1,7 @@
 {
-  "name": "netlify-plugin-algolia-index",
-  "version": "1.0.5",
-  "description": "Generate and export a search index to Algolia",
+  "name": "netlify-plugin-algolia-export",
+  "version": "0.1.0",
+  "description": "Netlify plugin to build a search index and export to Algolia",
   "main": "index.js",
   "keywords": [
     "netlify",
@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukeocodes/netlify-plugin-algolia-index.git"
+    "url": "git+https://github.com/lukeocodes/netlify-plugin-algolia-export.git"
   },
   "bugs": {
-    "url": "https://github.com/lukeocodes/netlify-plugin-algolia-index/issues"
+    "url": "https://github.com/lukeocodes/netlify-plugin-algolia-export/issues"
   },
-  "homepage": "https://github.com/lukeocodes/netlify-plugin-algolia-index#readme"
+  "homepage": "https://github.com/lukeocodes/netlify-plugin-algolia-export#readme"
 }
