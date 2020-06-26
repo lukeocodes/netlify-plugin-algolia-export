@@ -14,18 +14,22 @@ Netlify plugin to build a search index and export to Algolia. Newer version of [
 
 ## Usage
 
-To install, add the plugin in your `netlify.toml` or use the Netlify plugin directory. No config is required but we show the default options below.
+To install, add the plugin in your `netlify.toml` or use the [Netlify Plugin Directory](http://app.netlify.com/plugins). There are no required config options, but there are [options available](#Options).
 
 ```toml
 [[plugins]]
   package = "netlify-plugin-algolia-export"
 ```
 
-***Add algolia config to your deploy environment variables.***
+There are however *required* environment variables. See the table below. You can read more about setting these in the [Build Config: Environment Variables](https://docs.netlify.com/configure-builds/environment-variables) Netlify documentation.
+
+| env variable name  | type  | required  | default  | description  |
+|---|---|---|---|---|
+| ALGOLIA_APPLICATION_ID | String | true | `null` | Your Algolia application ID |
+| ALGOLIA_ADMIN_KEY | String | true | `null` | Your Algolia Admin (or any index-write enabled) API key |
+| ALGOLIA_INDEX | String | true | `null` | Your Algolia index name |
 
 ![Add algolia config to your deploy environment variables](https://user-images.githubusercontent.com/956290/85300382-63c66400-b49e-11ea-82a9-045ac58f26e5.png)
-
-Set `ALGOLIA_APPLICATION_ID`, `ALGOLIA_ADMIN_KEY`, and `ALGOLIA_INDEX` using environment variables: https://docs.netlify.com/configure-builds/environment-variables
 
 These values can be found on the Your API Keys page on your Algolia Dashboard.
 
@@ -68,3 +72,7 @@ Advanced Regex Alert! This will exclude all files that DON'T match the regex for
 ## Credit
 
 Based on the [Netlify Search Index Plugin](https://github.com/sw-yx/netlify-plugin-search-index) by [swyx](https://github.com/sw-yx) for fetching and parsing the content into something we can index, then split from the original version of [netlify-plugin-algolia-index](https://github.com/lukeocodes/netlify-plugin-algolia-index).
+
+## Contributing
+
+Make pull-requests, but follow [code of conduct](.github/CODE_OF_CONDUCT.md) please.
