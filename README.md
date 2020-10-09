@@ -4,13 +4,13 @@
 ![](https://img.shields.io/github/contributors/lukeocodes/netlify-plugin-algolia-export)
 ![](https://img.shields.io/github/issues/lukeocodes/netlify-plugin-algolia-export)
 
-# Netlify Algolia Index Export
+# Netlify Algolia Index Export [Deprecated]
 
-Netlify plugin to build a search index and export to Algolia. Newer version of [netlify-plugin-algolia-index](https://github.com/lukeocodes/netlify-plugin-algolia-index), this one instead exports directly to Algolia.
+***This package is being deprecated and closed in favour of using the new official [Algolia Search Netlify plugin](https://github.com/algolia/algoliasearch-netlify). Please upgrade to this new plugin. ***
 
 ## Demo
 
-- Demo site: https://netlify-plugins-by-lukeocodes.netlify.app
+- ~~Demo site: https://netlify-plugins-by-lukeocodes.netlify.app~~
 
 ## Usage
 
